@@ -30,4 +30,15 @@
         android:textSize="20sp"
         app:backgroundTint="#FF5722" />
 
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="LoginActivity"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Login"
+        android:textSize="20sp"
+        app:backgroundTint="#FF5722" />
+
 </LinearLayout>
