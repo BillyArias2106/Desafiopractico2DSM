@@ -11,14 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafiopractico2DSM">
-        <activity android:name=".SignUp"></activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SignUp" />
+        <activity
+        android:name=".Splash"
+        android:label="Fast Food"
+        android:theme="@style/Theme.Desafiopractico2DSM">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".MainActivity"
+        android:label="Home Page" />
     </application>
 
 </manifest>
